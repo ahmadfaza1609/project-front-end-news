@@ -1,9 +1,7 @@
 # project-front-end-news
 
-#jalankan npm install --verbose
-
+# jalankan npm install --verbose
 npm install --verbose
 
-#baru npm install
-
+# baru npm install
 npm install
