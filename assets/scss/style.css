@@ -11195,6 +11195,8 @@ h6, .h6 {
 
 .btn:focus {
   outline: none;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
 }
 
 .btn-outline-primary {
@@ -11892,6 +11894,17 @@ header .navbar-bottom .navbar-toggler {
 
 .content-wrapper .banner-content a:hover {
   color: #dcdcdc;
+  text-decoration: none;
+}
+
+.content-wrapper .latest-news a,
+.content-wrapper .tren-news a {
+  color: #000;
+}
+
+.content-wrapper .latest-news a:hover,
+.content-wrapper .tren-news a:hover {
+  color: #3e3e3e;
   text-decoration: none;
 }
 

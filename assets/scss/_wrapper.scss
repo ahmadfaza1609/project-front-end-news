@@ -100,6 +100,16 @@
       }
     }
   }
+  .latest-news,
+  .tren-news{
+    a{
+      color: $black;
+      &:hover {
+        color: rgb(62, 62, 62);
+        text-decoration: none;
+      }
+    }
+  }
   .border-bottom-blue {
     border-bottom: solid 1px theme-color($darkslategray);
   }
