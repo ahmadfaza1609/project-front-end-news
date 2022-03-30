@@ -11908,6 +11908,19 @@ header .navbar-bottom .navbar-toggler {
   text-decoration: none;
 }
 
+.content-wrapper .box-quote {
+  background-color: #F6E7D8;
+}
+
+.content-wrapper .box-quote .card-body p {
+  font-style: italic;
+}
+
+.content-wrapper .author {
+  font-style: italic;
+  font-weight: 500;
+}
+
 .content-wrapper .border-bottom-blue {
   border-bottom: solid 1px;
 }

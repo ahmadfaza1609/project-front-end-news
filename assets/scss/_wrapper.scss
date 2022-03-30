@@ -110,6 +110,20 @@
       }
     }
   }
+
+  .box-quote{
+    background-color: #F6E7D8;
+    .card-body{
+      p{
+        font-style: italic;
+      }
+    }
+  }
+
+  .author{
+    font-style: italic;
+    font-weight: 500;
+  }
   .border-bottom-blue {
     border-bottom: solid 1px theme-color($darkslategray);
   }
