@@ -12215,4 +12215,42 @@ footer .footer-bottom .footer-border-top {
 .search-container button:focus {
   outline: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  color: #010424;
+  background-color: #f2f7f8;
+  -webkit-box-shadow: 0 0 10px #6d6d6d;
+          box-shadow: 0 0 10px #6d6d6d;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */
