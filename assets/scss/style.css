@@ -11491,7 +11491,7 @@ header .navbar .navbar-brand {
 }
 
 header .navbar .navbar-brand img {
-  width: 192px;
+  width: 182px;
 }
 
 @media (max-width: 999px) {
@@ -11575,6 +11575,11 @@ header .navbar-top .navbar-top-right-menu .nav-item:last-child .nav-link:after {
 header .navbar-top .navbar-top-left-menu .nav-item:first-child .nav-link,
 header .navbar-top .navbar-top-right-menu .nav-item:first-child .nav-link {
   padding-left: 0;
+}
+
+header .navbar-top .search {
+  width: 500px;
+  padding: 0px 20px;
 }
 
 header .navbar-top .navbar-top-right-menu .nav-item:first-child {
@@ -12241,6 +12246,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 32px;
+  z-index: 999;
   text-decoration: none;
   opacity: 0;
   pointer-events: none;

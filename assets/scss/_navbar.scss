@@ -9,7 +9,7 @@ header {
     .navbar-brand {
       margin-right: 0;
       img {
-        width: 192px;
+        width: 182px;
       }
       @media (max-width: 999px) {
         img {
@@ -79,6 +79,10 @@ header {
           }
         }
       }
+    }
+    .search{
+      width: 500px;
+      padding: 0px 20px;
     }
     .navbar-top-right-menu {
       .nav-item {
